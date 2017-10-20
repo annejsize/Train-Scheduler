@@ -12,5 +12,17 @@
   height: auto;
 }
 
+#metro-img {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  left: 200px;
+}
+
+.jumbotron {
+  background-color: white;
+  line-height: 5px;
+}
+
 
 /*Text Related Elements*/

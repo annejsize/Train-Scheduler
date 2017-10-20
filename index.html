@@ -12,17 +12,21 @@
   <!-- Bootstrap CDN-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Style Sheet Stuff-->
+  <!-- Style Sheet Stuff-->
   <link rel="stylesheet" type="text/css" href="assets/style.css">
 
   <!-- Firebase Reference -->
   <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+  <!-- Added Moment JS -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
 
 <body>
   <!-- Jumbotron Title -->
   <div class="jumbotron">
+    <img src="assets/images/metro.jpg" id="metro-img" alt="metro icon">
     <h1 class="text-center">Getting Around Austin</h1>
     <p class="text-center"> [Because one can dream of this happening.] </p>
     <h3 class="text-center">Up-To-Date Train Scheduler</h3>
@@ -39,7 +43,7 @@
         </div>
         <div class="panel panel-default">
           <div class="panel-body">
-            <table class="table table-hover" id="employee-table">
+            <table class="table table-hover" id="train-list">
               <thead>
                 <tr>
                   <th>Train Name</th>
