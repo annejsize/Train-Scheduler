@@ -24,5 +24,12 @@
   line-height: 5px;
 }
 
+#colorme {
+  background-color: gray;
+}
+
+#colorme label {
+   color: white;
+ }
 
 /*Text Related Elements*/
